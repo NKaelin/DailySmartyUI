@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 class Logo extends Component {
   render() {
     const size = {
-      height: this.props.size ? this.props.size : 105,
-      width: this.props.size ? this.props.size : 105,
+      height: this.props.size ? this.props.size : 100,
+      width: this.props.size ? this.props.size : 100,
     };
     return (
       <div className="logo-main">
