@@ -72,7 +72,7 @@ class Post extends Component {
     } else if (this.props.type == "result") {
       return (
         <li
-          className="results-post"
+          className="result-post"
           onMouseEnter={() => this.setState({ height: 70 })}
           onMouseLeave={() => this.setState({ height: 0 })}
         >
